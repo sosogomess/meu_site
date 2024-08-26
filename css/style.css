@@ -1,0 +1,141 @@
+/* margens e padding */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
+/* Contêiner da logo e do nome */
+.logo-nome {
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo da logo */
+.logo {
+    width: 50px; /* Largura da logo */
+    height: 50px; /* Altura da logo */
+    border-radius: 50%; /* Deixa a logo redonda */
+    object-fit: cover; /*Imagem dentro do círculo (editar aqui) */
+    margin-right: 20px; /* Aumenta a distância entre a logo e o nome */
+}
+
+
+/* Estilo do nome */
+.nome {
+    font-size: 15px;
+    color: #fdfdfd;
+}
+
+.content {
+    margin: 20px;
+    text-align: center; /* Centraliza o texto e a imagem */
+}
+
+/* Estilo para a imagem abaixo do texto Perfume */
+.imagem-abaixo {
+    margin-top: 0px; /* Espaço entre o texto e a imagem */
+    max-width: 500px;  /* Imagem do tamanho do contêiner */
+    width: 500px;  /*Largura da imagem */
+    height: auto;  /* Mantém a proporção da imagem automaticamente */
+
+}
+.sophia-abaixo {
+    width: 300px;   /*  Largura da imagem */
+    height: 300px;  /* Altura da imagem, igual à largura */
+    border-radius: 50%; /* Deixa a imagem redonda */
+    object-fit: cover; /
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #0a0a0a;
+}
+
+/* Estilo do cabeçalho e navegação */
+header {
+    background-color: #af7675;
+    color: #fff;
+    padding: 10px 10;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li { 
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #fc83e8;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #cb9897;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
