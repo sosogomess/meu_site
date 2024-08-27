@@ -7,7 +7,7 @@ body {
 
 /* Estilo do cabeçalho */
 header {
-    background-color: #f4f4f4;
+    background-color: #330000;
     padding: 10px 20px;
 }
 
@@ -30,7 +30,7 @@ header {
 /* Estilo do nome */
 .nome {
     font-size: 15px;
-    color: #fdfdfd;
+    color: #ffff;
 }
 
 .content {
@@ -41,8 +41,8 @@ header {
 /* Estilo para a imagem abaixo do texto Perfume */
 .imagem-abaixo {
     margin-top: 0px; /* Espaço entre o texto e a imagem */
-    max-width: 500px;  /* Imagem do tamanho do contêiner */
-    width: 500px;  /*Largura da imagem */
+    max-width: 300px;  /* Imagem do tamanho do contêiner */
+    width: 250px;  /*Largura da imagem */
     height: auto;  /* Mantém a proporção da imagem automaticamente */
 
 }
@@ -63,8 +63,8 @@ body {
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #0a0a0a;
+    background-color: #ffeaea;
+    color: #330000;
 }
 
 /* Estilo do cabeçalho e navegação */
